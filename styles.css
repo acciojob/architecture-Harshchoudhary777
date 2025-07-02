@@ -1,1 +1,75 @@
-/*  your css code here. If applicable */
+/* Background */
+body {
+  margin: 0;
+  background-color: #dce5dd;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #dce5dd;
+  padding-bottom: 20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+
+/* Banner image */
+.imageContainer img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+/* Table layout */
+.infoTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Cells */
+.infoTable .cell {
+  border: 1px solid #999;
+  vertical-align: top;
+  padding: 10px;
+}
+
+/* Images in left/right columns */
+.cell.image img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+/* Text in center column */
+.cell.text {
+  width: 600px;
+}
+
+.centerText {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Captions under side images */
+.caption {
+  font-size: 13px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.caption a {
+  color: #0077cc;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.caption a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+.cell h3 {
+  margin-top: 0;
+}
